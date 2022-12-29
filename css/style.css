@@ -371,8 +371,13 @@ h4 {
   width: 100%;
   z-index: 1;
   background-color: rgba(0,0,0,0.5);
+  animation: open-modal 1s;
 }
 
+@keyframes open-modal {
+  from{opacity: 0;};
+  to{opacity: 1;};
+}
 .modal-box{
   width:400px;
   margin:100px auto;
