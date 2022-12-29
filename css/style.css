@@ -340,6 +340,8 @@ h4 {
   margin: 25px;
 }
 
+.modal{}
+
 @media (max-width:1100px){
   .covers{
     grid-template-columns:1fr 1fr;
